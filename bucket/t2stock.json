@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/franpfeiffer/t2stock/releases/download/v1.0.0/t2stock_1.0.0_windows_amd64.zip",
-            "hash": "sha256:1d8f57a3dce15dfd4524adeb57ff5c178364b7c8875971873e0609f3c527bfc4"
+            "hash": "sha256:08132aa4bdcb68b45a1f0902d25ef209be5f6cdf8f5a473f7e205cc4514726bc"
         }
     },
     "bin": "t2stock.exe"
