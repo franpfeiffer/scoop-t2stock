@@ -1,19 +1,19 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/franpfeiffer/t2stock/releases/download/v1.0.0/t2stock_1.0.0_windows_amd64.zip",
+            "url": "https://github.com/franpfeiffer/t2stock/releases/download/v1.0.1/t2stock_1.0.1_windows_amd64.zip",
             "bin": [
                 "t2stock.exe"
             ],
-            "hash": "08132aa4bdcb68b45a1f0902d25ef209be5f6cdf8f5a473f7e205cc4514726bc"
+            "hash": "6a480d5f8b95c74d54a620c3c5896a3b1bcff8a931d7fd5ec875d8fa3a6ae600"
         },
         "arm64": {
-            "url": "https://github.com/franpfeiffer/t2stock/releases/download/v1.0.0/t2stock_1.0.0_windows_arm64.zip",
+            "url": "https://github.com/franpfeiffer/t2stock/releases/download/v1.0.1/t2stock_1.0.1_windows_arm64.zip",
             "bin": [
                 "t2stock.exe"
             ],
-            "hash": "647c85e43cccb5bf211049f4b5a5d4cf23b8a288a6df42a88dd2db865626d5d8"
+            "hash": "c0e2d458d84447272b6a365a6b254b26d1c79cc0167d5f0e1e4662f02e79078b"
         }
     },
     "homepage": "https://github.com/franpfeiffer/scoop-t2stock",
