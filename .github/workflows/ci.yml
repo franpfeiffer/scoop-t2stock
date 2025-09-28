@@ -1,0 +1,19 @@
+name: Tests
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  test_powershell:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@main
+    - name: Test bucket
+      shell: pwsh
+      run: |
+        Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+        iwr -useb get.scoop.sh | iex
+        scoop bucket add test-bucket .
+        scoop install test-bucket/t2stock
+        t2stock --version
