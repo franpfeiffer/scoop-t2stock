@@ -4,5 +4,5 @@ A Scoop bucket for T2Stock, a real-time stock price tracker.
 
 ## Installation
 ```powershell
-scoop bucket add t2stock https://github.com/yourusername/scoop-bucket
+scoop bucket add t2stock https://github.com/franpfeiffer/scoop-bucket
 scoop install t2stock
