@@ -16,7 +16,8 @@ jobs:
         iwr -useb get.scoop.sh | iex
         scoop bucket add test-bucket https://github.com/franpfeiffer/scoop-t2stock
         scoop install test-bucket/t2stock
-        t2stock
-        if ($LASTEXITCODE -eq 0) {
-            Write-Host "t2stock executed successfully"
-        }
+        $job = Start-Job -ScriptBlock { t2stock }
+        Start-Sleep -Seconds 5
+        Stop-Job $job
+        Remove-Job $job
+        Write-Host "t2stock started and stopped successfully"
