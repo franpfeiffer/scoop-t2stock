@@ -1,21 +1,21 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/franpfeiffer/t2stock/releases/download/v1.0.1/t2stock_1.0.1_windows_amd64.zip",
+            "url": "https://github.com/franpfeiffer/t2stock/releases/download/v1.0.3/t2stock_1.0.3_windows_amd64.zip",
             "bin": [
                 "t2stock.exe"
             ],
-            "hash": "6a480d5f8b95c74d54a620c3c5896a3b1bcff8a931d7fd5ec875d8fa3a6ae600"
+            "hash": "425135321ea8c91b8a0c49174961613680923875207604217967bd0b601ee586"
         },
         "arm64": {
-            "url": "https://github.com/franpfeiffer/t2stock/releases/download/v1.0.1/t2stock_1.0.1_windows_arm64.zip",
+            "url": "https://github.com/franpfeiffer/t2stock/releases/download/v1.0.3/t2stock_1.0.3_windows_arm64.zip",
             "bin": [
                 "t2stock.exe"
             ],
-            "hash": "c0e2d458d84447272b6a365a6b254b26d1c79cc0167d5f0e1e4662f02e79078b"
+            "hash": "629be7652ead0241d1dc6ce43c2562041436ae8bd38f75325e63e46a794487f8"
         }
     },
-    "homepage": "https://github.com/franpfeiffer/scoop-t2stock",
+    "homepage": "https://github.com/franpfeiffer/scoop-t2stock/bucket",
     "description": "Real-time stock price tracker"
 }
